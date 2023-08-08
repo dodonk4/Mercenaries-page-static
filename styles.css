@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background-color: #292424;
+    overflow-x: hidden;
+    color: #FFF;
+}
+
+section{
+    position: relative;
+}
+
+#Hero{
+    position: relative;
+    height: 80vh;
+}
+
+#grey-rectangle{
+    position: absolute;
+    width: 190vh;
+    height: 80vh;
+    background-color: #292424;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#images{
+    position: relative;
+    width: 190vh;
+    height: 50vh;
+}
+
+#hero-image-background{
+    position: absolute;
+    width: 190vh;
+    height: 80vh;
+    object-fit: cover;
+}
+
+#hero-soldier{
+    position: absolute;
+    width: 120vh;
+    height: 80vh;
+    top: 0vh;
+    left: 70vh;
+    object-fit: cover;
+    z-index: 1;
+}
+
+#hero-content{
+    position: absolute;
+    top: 20vh;
+    left: 20vh;
+}
+
+#hero-title{
+    position: absolute;
+    /* left: 10vh;
+    top: 25vh; */
+    z-index: 2;
+    color: #FFF;
+    width: 70vh;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#hero-text{
+    position: absolute;
+    /* left: 10vh;*/
+    top: 20vh; 
+    z-index: 2;
+    color: #FFF;
+    width: 70vh;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    font-size: 32px;
+    font-style: light;
+    font-weight: 200;
+    line-height: normal; 
+}
+
+#logo{  
+    position: absolute;
+    object-fit: cover;
+    top: -5vh;
+    height: 25vh;
+    width: 20vh;
+}
+
+#Header{
+    position: absolute;
+    z-index: 2;
+    color: #FFF;
+    /* background-color: aqua; */
+    height: 20vh;
+    width: 190vh;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+/* .NavBar{
+    position: absolute;
+    z-index: 2;
+    height: 20vh;
+    width: 190vh;
+} */
+
+/* .nav-links{
+
+} */
+
+#hero-button{
+    position: absolute;
+    z-index: 2;
+    background-color: #760F0F;
+    top: 62vh;
+    left: 40vh;
+    padding: 15px 32px;
+    box-shadow: 5px 5px 2px rgba(129, 17, 17, 0.5);
+    border: none;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    font-size: 32px;
+    font-style: light;
+    font-weight: 800;
+    line-height: normal; 
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+#hero-button:hover {
+    box-shadow: none;
+    color: #fff;
+    transform: translateY(2px) translateX(2px);
+}
+
+#FirstPresentation{
+    position: relative;
+    height: 70vh;
+}
+
+/* #FirstPresentation{
+    display: absolute;
+} */
+
+.presentation-image{
+    position: absolute;
+    
+    z-index: 1;
+}
+
+#first-presentation-image{
+    transform: scaleX(-1);
+    width: 120vh;
+    height: 70vh;
+    left: 8vh;
+}
+
+#second-presentation-image{
+    width: 135vh;
+    height: 70vh;
+    left: -5vh;
+}
+
+
+#second-presentation-background{
+    opacity: 0.5;
+}
+
+.presentation-background{
+    position: absolute;
+    width: 120vh;
+    height: 70vh;
+    left: -30vh;
+}
+
+
+.presentation-content{
+    position: absolute;
+    left: 110vh;
+    top: 15vh;
+}
+
+.section-title{
+    position: absolute;
+    /* left: 10vh;
+    top: 25vh; */
+    z-index: 2;
+    width: 70vh;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.section-text{
+    position: absolute;
+    /* left: 10vh;*/
+    top: 20vh; 
+    z-index: 2;
+    width: 70vh;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: light;
+    font-weight: 200;
+    line-height: normal; 
+}
+
+#ServiciesHomePage{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: #760F0F;
+    height: 80vh;
+}
+
+#servicies-home-page-title{
+    margin-top: 2vh;
+    text-align: center;
+    width: 100vh;
+}
+
+.servicies-blocks{
+    flex-direction: column;
+    position: relative;
+    top: 15vh;
+    text-align: center;
+}
+
+.servicies-block-logos{  
+    width: 10vh;
+    height: 10vh;
+}
+
+.servicies-block-titles{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.servicies-block-paragraphs{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    width: 40vh;
+    margin-top: 1vh;
+}
+
+#SecondPresentation{
+    height: 70vh;
+    background-color: #292424;
+}
+
+#ThirdPresentation{
+    height: 70vh;
+    background-color: #760F0F;
+    justify-content: flex-end;
+
+}
+
+#third-presentation-image{
+    left: 80vh;
+    height: 70vh;
+    width: 120vh;
+    z-index: 2;
+}
+
+#third-presentation-background{
+    left: 110vh;
+}
+
+.gray-rectangles{
+    background-color: #292424;
+    opacity: 0.5;
+}
+
+#third-presentation-rectangle{
+    position: absolute;
+    height: 70vh;
+    width: 90vh;
+    left: 110vh;
+    z-index: 1;
+}
+
+#third-presentation-title{
+    top: -7vh;
+    left: -100vh;
+}
+
+#third-presentation-paragraph{
+    top: 15vh;
+    left: -100vh;
+}
+
+
+
+@media only screen and (max-width:700px){
+    #hero-soldier{
+        position: absolute;
+        width: 45vh;
+        height: 45vh;
+        top: 55vh;
+        left: 2vh;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    #grey-rectangle{
+        position: absolute;
+        width: 50vh;
+        height: 100vh;
+        background-color: #292424;
+        opacity: 0.5;
+        z-index: 1;
+    }
+
+    #hero-image-background{
+        position: absolute;
+        width: 50vh;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    #hero-title{
+        position: absolute;
+        /* left: 10vh;
+        top: 25vh; */
+        z-index: 2;
+        text-align: center;
+        color: #FFF;
+        width: 40vh;
+        font-family: 'Inter', sans-serif;
+        font-size: 32px;
+        font-weight: 800;
+    }
+
+    #hero-content{
+        position: absolute;
+        top: 20vh;
+        left: 4vh;
+    }
+
+    #hero-text{
+        position: absolute;
+        text-align: center;
+        /* left: 10vh;*/
+        top: 20vh; 
+        z-index: 2;
+        color: #FFF;
+        width: 40vh;
+        font-family: 'Inter', sans-serif;
+        color: #FFF;
+        font-size: 24px;
+        font-style: light;
+        font-weight: 200;
+        line-height: normal; 
+    }
+    
+    #hero-button{
+        position: absolute;
+        z-index: 2;
+        background-color: #760F0F;
+        top: 70vh;
+        left: 7vh;
+        padding: 15px 32px;
+        box-shadow: 5px 5px 2px rgba(129, 17, 17, 0.5);
+        border: none;
+        font-family: 'Inter', sans-serif;
+        color: #FFF;
+        font-size: 32px;
+        font-style: light;
+        font-weight: 800;
+        line-height: normal; 
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+    }
+
+    #logo{  
+        position: absolute;
+        object-fit: cover;
+        top: -3vh;
+        height: 15vh;
+        width: 10vh;
+    }
+
+}
