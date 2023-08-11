@@ -14,56 +14,67 @@
     <main>
 
         <header id="Header">
-
-            <img id="logo" src="images/logo.png"/>
+            
+            <img class="logo-image" src="images/logo.png"/>
 
             <nav class="NavBar">
-
-                
-
-                <ul>
+                <ul class="nav__links">
                     <li><a href="#" class="nav-links">Inicio</a></li>
                     <li><a href="#" class="nav-links">Servicios</a></li>
                     <li><a href="#" class="nav-links">Sobre Nosotros</a></li>
-                    <li><a href="#" class="nav-links">Contacto</a></li>
                 </ul>
-
             </nav>
+
+            <button class="contact-button">
+                Contactanos
+            </button>
+
+            <img class="menu-logo" src="images/menu.png"/>
 
         </header>
 
         <section id="Hero">
 
-            <div id="hero-content">
+            <div class="hero-content">
 
-                <p id="hero-title">
+                <p class="hero-title">
                     Bienvenido a Los Merodeadores
                 </p>
 
-                <p id="hero-text">
+                <p class="hero-text">
                     Los mejores soldados del Yermo a tu disposición. <b style="font-weight: 400;"> No andes por ahí sin nuestra ayuda</b>
                 </p>
 
+                <button class="hero-button">
+                    ¡Conoce más!
+                </button> 
+
             </div>
 
 
-            <div id="grey-rectangle"></div>
+            <div class="grey-rectangle"></div>
 
 
-            <div id="images">
-                <img id="hero-image-background" src="images/hero.jpg" />
-                <img id="hero-soldier" src="images/hero-soldier.png"/>
+            <div class="images">
+                <img class="hero-image-background" src="images/hero.jpg" />
             </div>
 
-            <button id="hero-button">
-                ¡Conoce más!
-            </button>
+            <div class="second-images">
+                <img class="hero-soldier" src="images/hero-soldier.png"/>
+            </div>
+
+            
             
         </section>
         
         <section id="FirstPresentation">
-            <img class="presentation-image" id="first-presentation-image" src="images/soldier-first-presentation.png">
-            <img class="presentation-background" id="first-presentation-background" src="images/scenario-first-presentation.jpg">
+            <div class="presentation-background-container">
+                <img class="presentation-background" id="first-presentation-background" src="images/scenario-first-presentation.jpg">
+            </div>
+
+            <div class="second-images presentation-soldier-container">
+                <img class="presentation-soldier" id="first-presentation-soldier" src="images/soldier-first-presentation.png">
+            </div>
 
             <div id="first-presentation-content" class="presentation-content">
                 
@@ -78,23 +89,23 @@
             </div>
         </section>
 
-        <section id="ServiciesHomePage">
-            <h1 id="servicies-home-page-title" class="section-title">Estamos preparados para todo</h1>
+        <!--<section id="ServiciesHomePage">
+            <h1 id="servicies-home-page-title" class="section-title">Servicios</h1>
 
-            <div class="servicies-blocks">
-                <img class="servicies-block-logos" src="images/eye.png">
-                <div class="servicies-block-titles">Escoltamos</div>
-                <p class="servicies-block-paragraphs">Brindamos nuestra guía y nuestra escolta para que recorras el yermo como un paseo en el parque</p>
+            <div class="blocks">
+                <img class="block-logos" src="images/eye.png">
+                <div class="block-titles">Escoltamos</div>
+                <p class="block-paragraphs">Brindamos nuestra guía y escolta para que recorras el yermo como un paseo en el parque. Nadie te molestará</p>
             </div>
-            <div class="servicies-blocks">
-                <img class="servicies-block-logos" src="images/swords.png">
-                <div class="servicies-block-titles">Asaltamos</div>
-                <p class="servicies-block-paragraphs">Atacamos y destrozamos a tus enemigos. Una estrategia fría y un ataque certero siempre son nuestras armas</p>
+            <div class="blocks">
+                <img class="block-logos" src="images/swords.png">
+                <div class="block-titles">Asaltamos</div>
+                <p class="block-paragraphs">Atacamos y destrozamos a tus enemigos. Una estrategia fría y un ataque certero siempre nos dan la victoria</p>
             </div>
-            <div class="servicies-blocks">
-                <img class="servicies-block-logos" src="images/handshake.png">
-                <div class="servicies-block-titles">Defendemos</div>
-                <p class="servicies-block-paragraphs">Defendemos tu asentamiento de los peligros del exterior. Nadie se atreverá a acercarse a tu hogar </p>
+            <div class="blocks">
+                <img class="block-logos" src="images/shield.png">
+                <div class="block-titles">Defendemos</div>
+                <p class="block-paragraphs">Protegemos tu asentamiento de los peligros del exterior. Nadie se atreverá a acercarse a tu hogar </p>
             </div>
 
         </section>
@@ -106,11 +117,11 @@
             <div class="presentation-content" id="second-presentation-content">
                 
                 <p class="section-title" id="second-presentation-title">
-                    La mejor protección en el fin del mundo
+                    Siempre estamos vigilando
                 </p>
 
                 <p class="section-text" id="second-presentation-paragraph">
-                    Brindamos nuestros servicios para cumplir tus objetivos. No hay nada que temer cuando nos tienes a tu lado
+                    Te cuidamos de los peligros que asolan este mundo. Nunca bajamos la guardia ni siquiera cuando necesites descansar
                 </p>
 
             </div>
@@ -134,6 +145,55 @@
             </div>
         </section>
         
+        <section id="Stats">
+            <div class="blocks stat-blocks">
+                <img id="red-handshake" class="block-logos stat-block-logo" src="images/red-handshake.png">
+                <div id="red-handshake-number" class="block-titles stat-block-number">+1000</div>
+                <div id="red-handshake-title" class="block-titles stat-block-title">CLIENTES SATISFECHOS</div>
+            </div>
+            <div class="blocks stat-blocks">
+                <img id="red-helmet" class="block-logos stat-block-logo" src="images/red-helmet.png">
+                <div id="red-helmet-number" class="block-titles stat-block-number">+50 <br></div>
+                <div id="red-helmet-title" class="block-titles stat-block-title">INTEGRANTES EN LA PATRULLA<br></div>
+            </div>
+            <div class="blocks stat-blocks">
+                <img id="red-skull" class="block-logos stat-block-logo" src="images/red-skull.png">
+                <div id="red-skull-number" class="block-titles stat-block-number">+3000 <br></div>
+                <div id="red-skull-title" class="block-titles stat-block-title">OBJETIVOS ABATIDOS<br></div>
+            </div> 
+        </section>
+        
+        <section id="Places">
+            <div class="places-title-row">
+
+                Sucursales
+
+            </div>
+
+            <div class="gray-rectangles" id="places-rectangle"></div>
+
+            <div class="flexbox-places-container">
+
+                <div class="flexbox-places">
+                    <img id="mar-del-plata" class="place-image" src="images/fort-87.jpeg">
+                </div>
+
+                <div class="flexbox-places">
+                    <img id="santa-rosa" class="place-image" src="images/mar-del-plata.jpeg">
+                </div>
+
+                <div class="flexbox-places">
+                    <img id="pueyrredon" class="place-image" src="images/the-plane.jpeg">
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+            
+        </footer> -->
+
     </main>
 
 
