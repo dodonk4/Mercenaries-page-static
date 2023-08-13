@@ -330,7 +330,7 @@ nav{
     width: 80%;
     font-family: 'Inter', sans-serif;
     /* font-size: 42px; */
-    font-size: clamp(1.5rem, 5vw, 3rem);
+    font-size: clamp(1rem, 5vw, 3rem);
     font-weight: 800;
 }
 
@@ -340,7 +340,7 @@ nav{
     width: 80%;
     font-family: 'Inter', sans-serif;
     /* font-size: 28px; */
-    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-size: clamp(0.7rem, 3vw, 1.5rem);
     font-style: light;
     font-weight: 200;
     line-height: normal; 
@@ -487,7 +487,7 @@ nav{
     /* font-size: 28px; */
     font-size: clamp(12px, 3vw, 28px);
     /* width: 35vh; */
-    margin-bottom: 7vh;
+
 }
 
 #Places{
@@ -498,7 +498,7 @@ nav{
 .places-title-row{
     position: relative;
     display: flex;
-    height: 10vh;
+    height: 20%;
     background-color: #760F0F;
     justify-content: center;
     align-items: center;
@@ -521,7 +521,7 @@ nav{
 
 .place-image{
     width: 100%;
-    height: 100%;
+    height: 80%;
     object-fit: cover;
     opacity: 0.25;
     /* border: solid #fff; */
@@ -534,11 +534,11 @@ nav{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     position: absolute;
-    top: 40%;
+    top: 30%;
 }
 
 .place-title{
-    font-size: clamp(12px, 3vw, 3vw);
+    font-size: clamp(12px, 3vw, 40px);
 }
 
 footer{
