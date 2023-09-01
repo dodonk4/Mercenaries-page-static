@@ -13,15 +13,19 @@ menuButton.addEventListener("click", () => {
             section.style = "opacity: 1";
         });
 
+        document.body.style = "overflow-y: auto";
 
         theUl.style = "left: -100%;";
         theUl.setAttribute("isshown", "false");
+        
 
     }else if(valueOfUl === "false"){
 
         Array.from(sections).forEach(section => {
             section.style = "opacity: 0";
         });
+
+        document.body.style = "overflow-y: hidden";
 
         theUl.style = "left: 0%;";
         theUl.setAttribute("isshown", "true");
