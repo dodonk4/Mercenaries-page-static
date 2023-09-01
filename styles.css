@@ -13,6 +13,7 @@ body{
 section{
     position: relative;
     display: block;
+    transition: all 0.5s ease;
 }
 
 
@@ -276,7 +277,7 @@ nav{
     position: absolute;
     min-width: 235px;
     width: clamp(50%, 50vw, 100%);
-    height: clamp(50%, 50vw, 90%);
+    max-height: 380px;
     right: 0;
     bottom: 0;
     object-fit: contain;
@@ -556,9 +557,6 @@ footer{
         font-size: 48px;
     }
 
-    .first-nav-link{
-        margin-top: 100px
-    }
 
     .contact-button{
         display: none;
