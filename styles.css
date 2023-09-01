@@ -556,6 +556,10 @@ footer{
         font-size: 48px;
     }
 
+    .first-nav-link{
+        margin-top: 100px
+    }
+
     .contact-button{
         display: none;
     }
@@ -565,8 +569,9 @@ footer{
 @media all and (max-width: 490px){
 
     .nav__links li {
-        font-size: 36px;
+        font-size: 24px;
     }
+
 
     .logo-image{
         margin-left: 3vh;
