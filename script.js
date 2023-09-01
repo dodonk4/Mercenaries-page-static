@@ -25,7 +25,7 @@ menuButton.addEventListener("click", () => {
             section.style = "opacity: 0";
         });
 
-        document.body.style = "overflow-y: hidden";
+        document.body.style = "overflow-y: hidden";//This isn't working in mobile. Search the reason and solve it
 
         theUl.style = "left: 0%;";
         theUl.setAttribute("isshown", "true");

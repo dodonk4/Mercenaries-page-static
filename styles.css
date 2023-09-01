@@ -4,6 +4,7 @@
     font-family: 'Inter', sans-serif;
 }
 
+
 body{
     background-color: #292424;
     color: #FFF;
@@ -42,7 +43,6 @@ header{
     object-fit: contain;
     height: 90px;
     cursor: pointer;
-    z-index: 3;
 }
 
 .checkbtn{
