@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer type="text/javascript" src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -14,22 +16,34 @@
     <main>
 
         <header id="Header">
-            
+              
             <img loading="lazy" class="logo-image" src="tinified/logo.png"/>
 
             <nav class="NavBar">
-                <ul class="nav__links">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>  
+    
+
+                <ul class="nav__links" id="the-ul">
                     <li><a href="#" class="nav-links">Inicio</a></li>
                     <li><a href="#" class="nav-links">Servicios</a></li>
                     <li><a href="#" class="nav-links">Sobre Nosotros</a></li>
                 </ul>
+
+                <button class="contact-button">
+                    Contactanos
+                </button>
+
+                
             </nav>
 
-            <button class="contact-button">
-                Contactanos
-            </button>
+            
 
-            <img loading="lazy" class="menu-logo" src="tinified/menu.png"/>
+            
+
+            <i id="menu-button" class="fas fa-bars menu-logo" style="display: none;"></i>
 
         </header>
 
@@ -82,7 +96,7 @@
         </section>
 
         <section id="ServiciesHomePage">
-            <!-- <h1 id="servicies-home-page-title" class="section-title">Servicios</h1> -->
+            
 
 
             <div class="blocks-container">
